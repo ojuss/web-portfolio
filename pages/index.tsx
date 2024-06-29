@@ -69,19 +69,42 @@ export default function Home({ posts }: { posts: PostMeta[] }) {
               ) to see some cool projects!
             </p>
           </section>
-         
+          {/*
           <section className={"self-stretch"}>
 
-             {/*
+             
             <p className="text-center text-3xl font-light text-dark-500">
               Posts && Blogs
             </p>
             
             <HomepagePostLayout posts={posts} />
-            */}
+            
             <Image src="/images/posts/pit.jpeg" alt="Pit" width={300} height={300} />
           </section> 
-          
+          */}
+          <div className=" pb-8 flex justify-center items-center w-full">
+            <div className="w-64 h-64 overflow-hidden rounded-full">
+              <Image 
+                src="/images/posts/pit.jpeg" 
+                alt="Pit" 
+                width={256}
+                height={256}
+                className="object-cover w-full h-full"
+              />
+            </div>
+          </div>
+          <div className=" space-y-4 text-lg">
+            <p>
+              I absolutely love diving into the world of web, especially with React.js and Go. Whether it's crafting minimilistic front-end interfaces or building robust back-end systems, I'm always up fto further sharpen my cognitive skills.
+            </p>
+            <p>
+              When I'm not glued to my computer screen, you'll probably find me strumming my guitar or spiking a volleyball on the court. Music and sports are my go-to escapes from the tech grind.
+            </p>
+            <p>
+              Curious about what I've been working on? Check out my projects and let's connect on GitHub!
+            </p>
+          </div>
+          <h1 className={"text-2xl inline-block rounded text-blue-500 dark:text-blue-100 font-semibold"}>Technologies && Frameworks 🛠️</h1>
         </div>
       </div>
     </div>

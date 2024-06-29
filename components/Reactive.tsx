@@ -18,7 +18,7 @@ const Reactive = ({
   React.useEffect(() => {
     reactive.install({
       firebaseConfig: {
-        apiKey: "AIzaSyDLHhsBoICfmOHaX4gdPuO9l9HGXmHV6Go",
+        apiKey: "",
         authDomain: "maggieliu-dev.firebaseapp.com",
         databaseURL: "https://maggieliu-dev-default-rtdb.firebaseio.com",
         projectId: "maggieliu-dev",
