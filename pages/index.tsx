@@ -45,7 +45,7 @@ export default function Home({ posts }: { posts: PostMeta[] }) {
               >
                 @Punjab Technical University
               </a>
-              . I enjoy programming and have a knack for Algorithms, Data Structures and Development.{" "}
+              . I enjoy coding competitively and building fun things.{" "}
             </p>
             <p>
               Check out{" "}
@@ -95,13 +95,13 @@ export default function Home({ posts }: { posts: PostMeta[] }) {
           </div>
           <div className=" space-y-4 text-lg">
             <p>
-              I absolutely love diving into the world of web, especially with React.js and Go. Whether it's crafting minimilistic front-end interfaces or building robust back-end systems, I'm always up fto further sharpen my cognitive skills.
+               I'm passionate about <span className="text-react">React.js</span> and <span className="text-golang">Go</span> development, creating minimilistic front-ends and strong back-ends. Always eager to sharpen my skills!
             </p>
             <p>
               When I'm not glued to my computer screen, you'll probably find me strumming my guitar or spiking a volleyball on the court. Music and sports are my go-to escapes from the tech grind.
             </p>
             <p>
-              Curious about what I've been working on? Check out my projects and let's connect on GitHub!
+              Curious to catch up or talk to me? Check out my projects and let's connect on LinkedIn!
             </p>
           </div>
           <h1 className={"text-2xl inline-block rounded text-blue-500 dark:text-blue-100 font-semibold"}>Technologies && Frameworks 🛠️</h1>

@@ -26,3 +26,8 @@
   }
 }
 
+/* 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--gradient-from), var(--gradient-via), var(--gradient-to));
+} */
+

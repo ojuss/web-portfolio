@@ -24,6 +24,8 @@ module.exports = {
         cyan: colors.cyan,
         sky: colors.sky,
         fuchsia: colors.fuchsia,
+        golang: '#00ADD8',
+        react: '#61DAFB',
       },
       typography: (theme) => ({
         DEFAULT: {
